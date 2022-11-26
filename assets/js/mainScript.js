@@ -9,7 +9,7 @@ generatedContent.innerHTML = mainPageContent()
 function mainPageContent() {
     const renderMainPageContent =
         `<main id="main">
-            <a href="https://github.com/Hacking-NASSA-with-HTML/Array_iteration_cheatsheet"
+            <a href="https://github.com/Hacking-NASSA-with-HTML/play_with_nodejs"
                 target="_blank"><img width="149" height="149"
                 src="./assets/img/fork_me_left_red.png"
                 style="position: fixed; top:0; left:0" alt="Fork me on GitHub">
