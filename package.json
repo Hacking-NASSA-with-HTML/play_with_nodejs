@@ -1,0 +1,19 @@
+{
+  "name": "play_with_nodejs",
+  "version": "1.0.0",
+  "description": "* DEPLOYMENT IN GITHUB PAGES:\r ##### See the ready Deployed project on [Github Pages](https://hacking-nassa-with-html.github.io/play_with_nodejs/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hacking-NASSA-with-HTML/play_with_nodejs.git"
+  },
+  "author": "Hacking-NASSA-with-HTML",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hacking-NASSA-with-HTML/play_with_nodejs/issues"
+  },
+  "homepage": "https://github.com/Hacking-NASSA-with-HTML/play_with_nodejs#readme"
+}

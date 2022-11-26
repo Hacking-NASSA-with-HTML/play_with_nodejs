@@ -1,3 +1,6 @@
+import { John } from "./pathToNames.js";
+import { Maria } from "./pathToNames.js";
+
 const generatedContent = document.getElementById('body')
 
 generatedContent.innerHTML = mainPageContent()
@@ -15,3 +18,6 @@ function mainPageContent() {
     </main>`
     return renderMainPageContent
 }
+
+console.log(John)
+console.log(Maria)
