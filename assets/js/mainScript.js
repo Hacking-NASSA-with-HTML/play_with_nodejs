@@ -1,5 +1,6 @@
 import { John } from "./pathToNames.js";
 import { Maria } from "./pathToNames.js";
+import { secretName } from "./pathToNames.js";
 
 const generatedContent = document.getElementById('body')
 
@@ -17,9 +18,11 @@ function mainPageContent() {
             <p class="paragraph">See results in the Console</p>
             <p class="paragraph">${John}</p>
             <p class="paragraph">${Maria}</p>
+            <p class="paragraph">secret name is: ${secretName}</p>
     </main>`
     return renderMainPageContent
 }
 
 console.log(John)
 console.log(Maria)
+console.log(secretName)
