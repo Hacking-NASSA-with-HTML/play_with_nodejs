@@ -15,6 +15,8 @@ function mainPageContent() {
             </a>
             <h1 class="titleH1">Play with nodejs</h1>
             <p class="paragraph">See results in the Console</p>
+            <p class="paragraph">${John}</p>
+            <p class="paragraph">${Maria}</p>
     </main>`
     return renderMainPageContent
 }
