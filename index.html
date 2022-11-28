@@ -30,17 +30,18 @@
         ];
 
         var tagCloud = TagCloud('.Sphere', Texts, {
-            radius: 330,
+            radius: 300,
             maxSpeed: 'fast',  // default is 'normal'
             initSpeed: 'fast',
             // direction
-            direction: 135,
+            direction: 65,
             // iteraction with mouse
             keep: true
         })
 
         // color to each text in sphere
-        var color = '#ff5733'
+        // var color = '#ff5733'
+        var color = 'red'
         document.querySelector('.Sphere').style.color = color
     </script>
     <script type="module" src="./assets/js/mainScript.js" defer></script>
