@@ -20,13 +20,20 @@
     height: auto;
 }
 
+.Sphere {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
 .tagcloud {
     display: block;
-    top: 100px;
     /* left: 32%; */
+    margin: 100px auto;
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: calc(13px + (25 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .tagcloud--item:hover {
@@ -38,7 +45,6 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 20vh 0 10vh 0;
-    z-index: -10;
 }
 
 .titleH1 {
