@@ -481,3 +481,32 @@
     return index;
 
 })))
+
+
+// Customization
+
+const Texts = [
+    '3D', 'TagCloud', 'JavaScript',
+    'CSS3', 'Animation', 'Interactive',
+    'Mouse', 'Rolling', 'Sphere',
+    '6KB', 'v2.x',
+    '3D', 'TagCloud', 'JavaScript',
+    'CSS3', 'Animation', 'Interactive',
+    'Mouse', 'Rolling', 'Sphere',
+    '6KB', 'v2.x'
+];
+
+var tagCloud = TagCloud('.Sphere', Texts, {
+    radius: 300,
+    maxSpeed: 'fast',  // default is 'normal'
+    initSpeed: 'fast',
+    // direction
+    direction: 65,
+    // iteraction with mouse
+    keep: true
+})
+
+// color to each text in sphere
+// var color = '#ff5733'
+var color = 'red'
+document.querySelector('.Sphere').style.color = color
