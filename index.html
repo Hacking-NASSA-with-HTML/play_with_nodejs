@@ -11,6 +11,38 @@
 </head>
 
 <body id="body" class="body">
+    <div class="sphere-container">
+        <div class="Sphere"></div>
+    </div>
+    <div id="containerForGeneratedContent"></div>
+
+    <script src="./assets/js/TagCloud.js"></script>
+    <script>
+        const Texts = [
+            '3D', 'TagCloud', 'JavaScript',
+            'CSS3', 'Animation', 'Interactive',
+            'Mouse', 'Rolling', 'Sphere',
+            '6KB', 'v2.x',
+            '3D', 'TagCloud', 'JavaScript',
+            'CSS3', 'Animation', 'Interactive',
+            'Mouse', 'Rolling', 'Sphere',
+            '6KB', 'v2.x'
+        ];
+
+        var tagCloud = TagCloud('.Sphere', Texts, {
+            radius: 330,
+            maxSpeed: 'fast',  // default is 'normal'
+            initSpeed: 'fast',
+            // direction
+            direction: 135,
+            // iteraction with mouse
+            keep: true
+        })
+
+        // color to each text in sphere
+        var color = '#ff5733'
+        document.querySelector('.Sphere').style.color = color
+    </script>
     <script type="module" src="./assets/js/mainScript.js" defer></script>
 </body>
 
